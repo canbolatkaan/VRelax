@@ -1,43 +1,160 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/HanneSay/Desktop/VRelaxProject/Packages/manifest.json
+    m_FilePath: C:/Users/HanneSay/Desktop/VRelax/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637792573923743211
-    m_Hash: 3854920496
+      ticks: 637796643807124612
+    m_Hash: 779493154
   m_LockFileStatus:
-    m_FilePath: C:/Users/HanneSay/Desktop/VRelaxProject/Packages/packages-lock.json
+    m_FilePath: C:/Users/HanneSay/Desktop/VRelax/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637792573929001297
-    m_Hash: 1257807057
+      ticks: 637796643807194434
+    m_Hash: 1627410876
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.collab-proxy@1.3.9
+    - packageId: com.normalvr.normcore@2.1.11
       testable: 0
       isDirectDependency: 1
-      version: 1.3.9
+      version: 2.1.11
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.normalvr.normcore@2.1.11
+      assetPath: Packages/com.normalvr.normcore
+      name: com.normalvr.normcore
+      displayName: Normcore
+      author:
+        name: Normal
+        email: max@normalvr.com
+        url: https://normcore.io
+      category: 
+      type: 
+      description: Your friendly neighborhood networking plugin :)
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.0-preview.6
+        - 2.0.0-preview.7
+        - 2.0.0-preview.8
+        - 2.0.0-preview.10
+        - 2.0.0-preview.11
+        - 2.0.0-preview.12
+        - 2.0.0-preview.13
+        - 2.0.0-preview.14
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.18
+        - 2.0.0-preview.19
+        - 2.0.0-preview.20
+        - 2.0.0
+        - 2.0.1
+        - 2.0.3
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6-rc1
+        - 2.1.6-rc2
+        - 2.1.6-rc3
+        - 2.1.6
+        - 2.1.7
+        - 2.1.8
+        - 2.1.9
+        - 2.1.10
+        - 2.1.11
+        compatible:
+        - 2.0.0-preview.6
+        - 2.0.0-preview.7
+        - 2.0.0-preview.8
+        - 2.0.0-preview.10
+        - 2.0.0-preview.11
+        - 2.0.0-preview.12
+        - 2.0.0-preview.13
+        - 2.0.0-preview.14
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.18
+        - 2.0.0-preview.19
+        - 2.0.0-preview.20
+        - 2.0.0
+        - 2.0.1
+        - 2.0.3
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6-rc1
+        - 2.1.6-rc2
+        - 2.1.6-rc3
+        - 2.1.6
+        - 2.1.7
+        - 2.1.8
+        - 2.1.9
+        - 2.1.10
+        - 2.1.11
+        verified: 
+      dependencies:
+      - name: com.unity.editorcoroutines
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.editorcoroutines
+        version: 1.0.0
+      keywords:
+      - normal
+      - normcore
+      - multiplayer
+      registry:
+        id: scoped:Normal
+        name: Normal
+        url: https://normcore-registry.normcore.io
+        scopes:
+        - com.normalvr
+        - io.normcore
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637795326289280000
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.collab-proxy@1.5.7
+      testable: 0
+      isDirectDependency: 1
+      version: 1.5.7
+      source: 1
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.collab-proxy@1.5.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
-      displayName: Unity Collaborate
+      displayName: Version Control
       author:
         name: 
         email: 
         url: 
       category: Editor
       type: 
-      description: Collaborate with your teammates with the official version control
-        system for Unity. Collaborate is a simple way for teams to save, share, and
-        sync your Unity project.
+      description: The Version Control package gives you the ability to use either
+        Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
+        SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
+        about how you can get started for free by visiting plasticscm.com.
       status: 4
       errors: []
       versions:
@@ -90,8 +207,6 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.3.9
-        - 1.4.9
         - 1.5.7
         - 1.6.0
         - 1.8.0
@@ -112,9 +227,13 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.3.9
-      dependencies: []
-      resolvedDependencies: []
+        verified: 1.5.7
+      dependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      resolvedDependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
       keywords:
       - vsc
       - version
@@ -138,20 +257,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314349270000000
+      datePublishedTicks: 637551413290000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: fa825106f349f996acff22f718845eab46ca2d7c
+        revision: f079d307344f568804d3ea6d781013135e614e45
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -231,9 +350,9 @@ m_PackageAssets:
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.19
+        version: 1.1.24
       - name: com.unity.ext.nunit
-        version: 1.0.5
+        version: 1.0.6
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
@@ -259,12 +378,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.5
+    - packageId: com.unity.ide.visualstudio@2.0.8
       testable: 0
       isDirectDependency: 1
-      version: 2.0.5
+      version: 2.0.8
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.ide.visualstudio@2.0.8
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -317,8 +436,18 @@ m_PackageAssets:
         - 2.0.12
         - 2.0.14
         verified: 2.0.14
-      dependencies: []
-      resolvedDependencies: []
+      dependencies:
+      - name: com.unity.test-framework
+        version: 1.1.9
+      resolvedDependencies:
+      - name: com.unity.test-framework
+        version: 1.1.24
+      - name: com.unity.ext.nunit
+        version: 1.0.6
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
       keywords: []
       registry:
         id: main
@@ -332,20 +461,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637400980850000000
+      datePublishedTicks: 637562620210000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 83ca94e82bb6da515dc57e0d860b6b2224f56991
+        revision: 5cdf5d932e6ecbbd83bbe6a40eec2a94b4979501
         path: 
     - packageId: com.unity.ide.vscode@1.2.3
       testable: 0
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -411,12 +540,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
-    - packageId: com.unity.test-framework@1.1.19
+    - packageId: com.unity.test-framework@1.1.24
       testable: 0
       isDirectDependency: 1
-      version: 1.1.19
+      version: 1.1.24
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.test-framework@1.1.19
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -466,9 +595,6 @@ m_PackageAssets:
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
-        - 1.1.19
-        - 1.1.20
-        - 1.1.22
         - 1.1.24
         - 1.1.26
         - 1.1.27
@@ -479,14 +605,14 @@ m_PackageAssets:
         verified: 1.1.30
       dependencies:
       - name: com.unity.ext.nunit
-        version: 1.0.5
+        version: 1.0.6
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
         version: 1.0.0
       resolvedDependencies:
       - name: com.unity.ext.nunit
-        version: 1.0.5
+        version: 1.0.6
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
@@ -506,20 +632,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637413148910000000
+      datePublishedTicks: 637505702940000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: 83583c7273ee961612200215e8989039bbce8748
+        revision: e6fe8892689398c0d9aba4587e0ba69edc3d82b8
         path: 
-    - packageId: com.unity.textmeshpro@3.0.1
+    - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
       isDirectDependency: 1
-      version: 3.0.1
+      version: 3.0.6
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -637,11 +763,9 @@ m_PackageAssets:
         - 3.2.0-pre.2
         - 4.0.0-pre.1
         compatible:
-        - 3.0.1
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
         - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -671,20 +795,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314376320000000
+      datePublishedTicks: 637547111200000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: 1604b62e543216408311bcd1355a7a9ca1e65765
+        revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
         path: 
-    - packageId: com.unity.timeline@1.4.4
+    - packageId: com.unity.timeline@1.4.8
       testable: 0
       isDirectDependency: 1
-      version: 1.4.4
+      version: 1.4.8
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.timeline@1.4.4
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -771,45 +895,6 @@ m_PackageAssets:
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         compatible:
-        - 1.2.6
-        - 1.2.7
-        - 1.2.9
-        - 1.2.10
-        - 1.2.11
-        - 1.2.12
-        - 1.2.13
-        - 1.2.14
-        - 1.2.15
-        - 1.2.16
-        - 1.2.17
-        - 1.2.18
-        - 1.3.0-preview.2
-        - 1.3.0-preview.3
-        - 1.3.0-preview.5
-        - 1.3.0-preview.6
-        - 1.3.0-preview.7
-        - 1.3.0
-        - 1.3.1
-        - 1.3.2
-        - 1.3.3
-        - 1.3.4
-        - 1.3.5
-        - 1.3.6
-        - 1.3.7
-        - 1.4.0-preview.1
-        - 1.4.0-preview.2
-        - 1.4.0-preview.3
-        - 1.4.0-preview.5
-        - 1.4.0-preview.6
-        - 1.4.0-preview.7
-        - 1.4.0
-        - 1.4.1
-        - 1.4.2
-        - 1.4.3
-        - 1.4.4
-        - 1.4.5
-        - 1.4.6
-        - 1.4.7
         - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
@@ -872,20 +957,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637389011320000000
+      datePublishedTicks: 637557616100000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-        revision: ebd6c3e005f9c4dc8bea51f72609192d29bd29d3
+        revision: 527e4364e28028f20f04fc51db671eb4bb910a26
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -943,12 +1028,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.xr.interaction.toolkit@0.10.0-preview.7
+    - packageId: com.unity.xr.interaction.toolkit@1.0.0-pre.4
       testable: 0
       isDirectDependency: 1
-      version: 0.10.0-preview.7
+      version: 1.0.0-pre.4
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.xr.interaction.toolkit@0.10.0-preview.7
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4
       assetPath: Packages/com.unity.xr.interaction.toolkit
       name: com.unity.xr.interaction.toolkit
       displayName: XR Interaction Toolkit
@@ -958,7 +1043,13 @@ m_PackageAssets:
         url: 
       category: XR
       type: 
-      description: XR Interaction toolkit for creating VR and AR experiences.
+      description: A high-level, component-based, interaction system for creating
+        VR and AR experiences. It provides a framework that makes 3D and UI interactions
+        available from Unity input events. The core of this system is a set of base
+        Interactor and Interactable components, and an Interaction Manager that ties
+        these two types of components together. It also contains helper components
+        that you can use to extend functionality for drawing visuals and hooking
+        in your own interaction events.
       status: 4
       errors: []
       versions:
@@ -979,6 +1070,7 @@ m_PackageAssets:
         - 1.0.0-pre.8
         - 2.0.0-pre.5
         - 2.0.0-pre.6
+        - 2.0.0-pre.7
         compatible:
         - 0.0.6-preview
         - 0.9.0-preview
@@ -996,17 +1088,18 @@ m_PackageAssets:
         - 1.0.0-pre.8
         - 2.0.0-pre.5
         - 2.0.0-pre.6
+        - 2.0.0-pre.7
         verified: 
       dependencies:
       - name: com.unity.inputsystem
-        version: 1.0.0
+        version: 1.0.2
       - name: com.unity.ugui
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.4
+        version: 2.1.7
       resolvedDependencies:
       - name: com.unity.inputsystem
-        version: 1.0.0
+        version: 1.0.2
       - name: com.unity.ugui
         version: 1.0.0
       - name: com.unity.modules.ui
@@ -1042,20 +1135,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637401918650000000
+      datePublishedTicks: 637569811150000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git+https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
-        revision: e3497384909d90ca79c628e5de8c94526e7b6e03
+        revision: ce29e6f82e35cdca8ca8bbc4a5a3393c1aa2b919
         path: 
     - packageId: com.unity.xr.management@4.2.1
       testable: 0
       isDirectDependency: 1
       version: 4.2.1
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.xr.management@4.2.1
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.xr.management@4.2.1
       assetPath: Packages/com.unity.xr.management
       name: com.unity.xr.management
       displayName: XR Plugin Management
@@ -1122,13 +1215,6 @@ m_PackageAssets:
         - 4.2.0
         - 4.2.1
         compatible:
-        - 3.2.13
-        - 3.2.15
-        - 3.2.16
-        - 3.2.17
-        - 4.0.0-exp.2
-        - 4.0.0-pre.2
-        - 4.0.0-pre.3
         - 4.0.1
         - 4.0.3
         - 4.0.5
@@ -1139,7 +1225,7 @@ m_PackageAssets:
         - 4.1.0
         - 4.2.0
         - 4.2.1
-        verified: 3.2.17
+        verified: 4.0.7
       dependencies:
       - name: com.unity.modules.subsystems
         version: 1.0.0
@@ -1199,7 +1285,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.0-preview.1
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.xr.mock-hmd@1.3.0-preview.1
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.xr.mock-hmd@1.3.0-preview.1
       assetPath: Packages/com.unity.xr.mock-hmd
       name: com.unity.xr.mock-hmd
       displayName: MockHMD XR Plugin
@@ -1287,12 +1373,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/xr.sdk.mock-hmd.git
         revision: dafe736729d60f1a4696913c59158fe8fa6f76ae
         path: 
-    - packageId: com.unity.xr.oculus@1.6.1
+    - packageId: com.unity.xr.oculus@1.9.1
       testable: 0
       isDirectDependency: 1
-      version: 1.6.1
+      version: 1.9.1
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.xr.oculus@1.6.1
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.xr.oculus@1.9.1
       assetPath: Packages/com.unity.xr.oculus
       name: com.unity.xr.oculus
       displayName: Oculus XR Plugin
@@ -1360,13 +1446,6 @@ m_PackageAssets:
         - 3.0.0-pre.2
         - 3.0.0-pre.4
         compatible:
-        - 1.6.1
-        - 1.7.0-preview.1
-        - 1.7.0-preview.2
-        - 1.7.0
-        - 1.8.1
-        - 1.9.0-preview.1
-        - 1.9.0
         - 1.9.1
         - 1.10.0-preview.1
         - 1.10.0-preview.2
@@ -1376,10 +1455,10 @@ m_PackageAssets:
         - 1.11.2
         - 2.0.0-preview.2
         - 3.0.0-pre.2
-        verified: 1.6.1
+        verified: 1.9.1
       dependencies:
       - name: com.unity.xr.management
-        version: 3.2.16
+        version: 4.0.1
       - name: com.unity.ugui
         version: 1.0.0
       resolvedDependencies:
@@ -1425,20 +1504,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637409066370000000
+      datePublishedTicks: 637563688360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
-        revision: 80e924a304329c20fce4068bbec9aa6a028d996f
+        revision: 55b70323e1ab2aefa33ac785aa17022e0e9b4ad1
         path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1486,7 +1565,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1534,7 +1613,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1582,7 +1661,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1630,7 +1709,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1678,7 +1757,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1730,7 +1809,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1786,7 +1865,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1835,7 +1914,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1883,7 +1962,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1931,7 +2010,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1979,7 +2058,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -2027,7 +2106,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2075,7 +2154,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2127,7 +2206,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2175,7 +2254,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2231,7 +2310,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2283,7 +2362,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2331,7 +2410,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2395,7 +2474,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2443,7 +2522,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2499,7 +2578,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2547,7 +2626,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2603,7 +2682,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2659,7 +2738,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2715,7 +2794,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2787,7 +2866,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2839,7 +2918,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2899,7 +2978,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2961,7 +3040,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -3009,7 +3088,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3069,7 +3148,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3121,7 +3200,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3180,7 +3259,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.1.7
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
       assetPath: Packages/com.unity.xr.legacyinputhelpers
       name: com.unity.xr.legacyinputhelpers
       displayName: XR Legacy Input Helpers
@@ -3224,7 +3303,6 @@ m_PackageAssets:
         - 2.1.7
         - 2.1.8
         compatible:
-        - 2.1.6
         - 2.1.7
         - 2.1.8
         verified: 2.1.8
@@ -3275,7 +3353,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.subsystemregistration@1.0.6
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.subsystemregistration@1.0.6
       assetPath: Packages/com.unity.subsystemregistration
       name: com.unity.subsystemregistration
       displayName: Subsystem Registration
@@ -3328,12 +3406,12 @@ m_PackageAssets:
         url: git@github.cds.internal.unity3d.com:unity/com.unity.subsystemregistration.git
         revision: 0b4157c6c0a160c51e74ead305aee77e6f29527d
         path: 
-    - packageId: com.unity.inputsystem@1.0.0
+    - packageId: com.unity.inputsystem@1.0.2
       testable: 0
       isDirectDependency: 0
-      version: 1.0.0
+      version: 1.0.2
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.inputsystem@1.0.0
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.inputsystem@1.0.2
       assetPath: Packages/com.unity.inputsystem
       name: com.unity.inputsystem
       displayName: Input System
@@ -3438,20 +3516,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637237864900000000
+      datePublishedTicks: 637468486210000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git+https://github.com/Unity-Technologies/InputSystem.git
-        revision: 0617549352dbfae87698b044d343b97727dd6581
+        revision: 041def76515febb36a83d1f928cfb7aefb85176c
         path: 
-    - packageId: com.unity.ext.nunit@1.0.5
+    - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
       isDirectDependency: 0
-      version: 1.0.5
+      version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\HanneSay\Desktop\VRelaxProject\Library\PackageCache\com.unity.ext.nunit@1.0.5
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3501,15 +3579,155 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637413148740000000
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-        revision: 1b3e542964a65210e966f5bf8751f62b1dcd8d69
+        revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
+        path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        verified: 2.0.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637237898320000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+        path: 
+    - packageId: com.unity.editorcoroutines@1.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.0
+      source: 1
+      resolvedPath: C:\Users\HanneSay\Desktop\VRelax\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+      assetPath: Packages/com.unity.editorcoroutines
+      name: com.unity.editorcoroutines
+      displayName: Editor Coroutines
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'The editor coroutines package allows developers to start constructs
+        similar to Unity''s monobehaviour based coroutines within the editor using
+        abitrary objects. '
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.1-preview.3
+        - 0.0.1-preview.4
+        - 0.0.1-preview.5
+        - 0.0.2-preview.1
+        - 0.1.0-preview.1
+        - 0.1.0-preview.2
+        - 1.0.0
+        compatible:
+        - 0.0.1-preview.3
+        - 0.0.1-preview.4
+        - 0.0.1-preview.5
+        - 0.0.2-preview.1
+        - 0.1.0-preview.1
+        - 0.1.0-preview.2
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - coroutine
+      - coroutines
+      - editor
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637232611380000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+        revision: f67fc9992bbc7a553b17375de53a8b2db136528e
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/HanneSay/Desktop/VRelaxProject/Packages
-m_EditorVersion: 2020.2.1f1 (270dd8c3da1c)
+m_ProjectPath: C:/Users/HanneSay/Desktop/VRelax/Packages
+m_EditorVersion: 2020.3.10f1 (297d780c91bc)
