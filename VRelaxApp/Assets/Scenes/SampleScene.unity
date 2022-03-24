@@ -213,7 +213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 230b7a93dacfd5446964d6c5495e890a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 230b7a93dacfd5446964d6c5495e890a, type: 3}
@@ -1233,6 +1233,11 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &1709914617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1572161834460568, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
+  m_PrefabInstance: {fileID: 700561579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1946692856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,6 +1252,7 @@ GameObject:
   - component: {fileID: 1946692860}
   - component: {fileID: 1946692859}
   - component: {fileID: 1946692858}
+  - component: {fileID: 1946692863}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -1706,3 +1712,16 @@ MonoBehaviour:
       m_SingletonActionBindings: []
     m_Reference: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &1946692863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946692856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25179ab9a08f1f04581090f1fc6a1741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normcoreObject: {fileID: 1709914617}
