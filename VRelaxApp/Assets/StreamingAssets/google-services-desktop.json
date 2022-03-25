@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "882920509451",
+    "project_id": "vrelax-19604",
+    "storage_bucket": "vrelax-19604.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882920509451:android:422506d27407a3dbb7770e",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.VRelax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882920509451-eqti1g3dc3tech9ikg1gvs4p16gkk14f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpURB32K-LEmX48aCrWy738b8_pB7XqgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882920509451-eqti1g3dc3tech9ikg1gvs4p16gkk14f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
