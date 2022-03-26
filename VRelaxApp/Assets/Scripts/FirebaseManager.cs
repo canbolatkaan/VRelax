@@ -48,29 +48,77 @@ public class FirebaseManager : MonoBehaviour
             Destroy(instance.gameObject);
             instance = this;
         }
+    }
 
-        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(checkDependencyTask =>
+    private void Start()
+    {
+        StartCoroutine(CheckAndFixDependancies());
+    }
+
+    private IEnumerator CheckAndFixDependancies()
+    {
+        var checkAndFixDEpendanciesTask = FirebaseApp.CheckAndFixDependenciesAsync();
+
+        yield return new WaitUntil(predicate: () => checkAndFixDEpendanciesTask.IsCompleted);
+
+        var dependancyResult = checkAndFixDEpendanciesTask.Result;
+
+        if(dependancyResult == DependencyStatus.Available)
         {
-            var dependencyStatus = checkDependencyTask.Result;
-
-            if(dependencyStatus == DependencyStatus.Available)
-            {
-                initializeFirebase();
-            }
-            else
-            {
-                Debug.LogError($"Couldnt resolve all Firebase dependencies: {dependencyStatus}");
-            }
-        });
+            initializeFirebase();
+        }
+        else
+        {
+            Debug.LogError($"Could not resolve all Firebase dependancies: {dependancyResult}");
+        }
     }
 
     private void initializeFirebase()
     {
         auth = FirebaseAuth.DefaultInstance;
-
+        StartCoroutine(CheckAutoLogin());
         auth.StateChanged += AuthStateChanged;
         AuthStateChanged(this, null);
     }
+
+    private IEnumerator CheckAutoLogin()
+    {
+        yield return new WaitForEndOfFrame();
+        if(user!= null)
+        {
+            var reloadUSerTask = user.ReloadAsync();
+
+            yield return new WaitUntil(predicate: () => reloadUSerTask.IsCompleted);
+
+            AutoLogin();
+        }
+        else
+        {
+            AuthUIManager.instance.LoginScreen();
+        }
+    }
+
+    private void AutoLogin()
+    {
+        if( user != null)
+        {
+            if (user.IsEmailVerified)
+            {
+                //TODO: giriþ yapýlmýþ, kullanýcý direk lobiye? atanacak
+                GameManager.instance.ChangeScene(1);    
+            }
+            else
+            {
+                StartCoroutine(SendVerificationEmail());
+            }
+           
+        }
+        else
+        {
+            AuthUIManager.instance.LoginScreen();
+        }
+    }
+
 
     private void AuthStateChanged(object sender, System.EventArgs eventArgs)
     {
@@ -147,12 +195,10 @@ public class FirebaseManager : MonoBehaviour
                 yield return new WaitForSeconds(1);
                 GameManager.instance.ChangeScene(1);
             }
-            //TODO: Send verification email
 
             else
             {
-                //Temp
-                GameManager.instance.ChangeScene(1);
+                StartCoroutine(SendVerificationEmail());
             }        
         }
     }
@@ -223,6 +269,43 @@ public class FirebaseManager : MonoBehaviour
                         Debug.Log($"Firebase user created successfully {user.DisplayName} ({user.UserId})");
                     //TODO: send verification e-mail
                     }
+            }
+        }
+    }
+
+    private IEnumerator SendVerificationEmail()
+    {
+        if (user != null)
+        {
+            var emailTask = user.SendEmailVerificationAsync();
+
+            yield return new WaitUntil(predicate: () => emailTask.IsCompleted);
+
+            if(emailTask.Exception != null){
+                FirebaseException firebaseException = (FirebaseException)emailTask.Exception.GetBaseException();
+                AuthError error = (AuthError)firebaseException.ErrorCode;
+
+                string output = "Unknown error, try again!";
+
+                switch (error)
+                {
+                    case AuthError.Cancelled:
+                        output = "Verification task was cancelled!";
+                        break;
+                    case AuthError.InvalidRecipientEmail:
+                        output = "Invalid e-mail!";
+                        break;
+                    case AuthError.TooManyRequests:
+                        output = "Too much request sended!";
+                        break;
+                }
+                AuthUIManager.instance.AwaitVerification(false, user.Email, output);
+
+            }
+            else
+            {
+                AuthUIManager.instance.AwaitVerification(true, user.Email, null);
+                Debug.Log("Email sent succesfully!");
             }
         }
     }
