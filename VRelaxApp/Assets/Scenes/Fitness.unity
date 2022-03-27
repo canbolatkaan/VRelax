@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 148291462}
   - component: {fileID: 148291461}
   m_Layer: 0
-  m_Name: Directional Light (1)
+  m_Name: 'Directional Light '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0e17e6f020c91e44bb5d9bf83d06453, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMinutes: 2
+  startMinutes: 1
   currentTimeText: {fileID: 1417855941}
 --- !u!114 &497731297
 MonoBehaviour:
@@ -2155,7 +2155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 955830066}
-  m_MoveSpeed: 10
+  m_MoveSpeed: 7
   m_EnableStrafe: 1
   m_UseGravity: 1
   m_GravityApplicationMode: 0
