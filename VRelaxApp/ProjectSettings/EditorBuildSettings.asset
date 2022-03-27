@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LowPoly.unity
     guid: 5e7af4bd95ac53a4cb784a9eedf8f6f9
+  - enabled: 1
+    path: Assets/Scenes/Keyboard.unity
+    guid: 21a78fb7400ec2e4b8d6f55b1d009863
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3d9894e8eb24b114e9706fce7b0db419, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 31b84dcea16af524cad140d851821398, type: 2}

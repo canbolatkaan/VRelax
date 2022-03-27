@@ -104,7 +104,7 @@ public class FirebaseManager : MonoBehaviour
         {
             if (user.IsEmailVerified)
             {
-                //TODO: giriþ yapýlmýþ, kullanýcý direk lobiye? atanacak
+                //TODO: giriï¿½ yapï¿½lmï¿½ï¿½, kullanï¿½cï¿½ direk lobiye? atanacak
                 GameManager.instance.ChangeScene(1);    
             }
             else
