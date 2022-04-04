@@ -11,7 +11,7 @@ public class LeftHandController : MonoBehaviour
     public GameObject normcoreObject;
     RealtimeAvatarManager manager;
     ActionBasedController controller;
-    LeftHand hand;
+    Hand hand;
     
 
     // Start is called before the first frame update
@@ -47,6 +47,6 @@ public class LeftHandController : MonoBehaviour
         
         Debug.Log("Hand Object: " + manager.localAvatar.transform.GetChild(1).GetChild(0).name);
         //Debug.Log();
-        hand = manager.localAvatar.transform.GetChild(1).GetChild(0).gameObject.GetComponent<LeftHand>();
+        hand = manager.localAvatar.transform.GetChild(1).GetChild(0).gameObject.GetComponent<Hand>(); /// burada nasıl olacak
     }
 }

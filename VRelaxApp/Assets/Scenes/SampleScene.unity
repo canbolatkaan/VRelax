@@ -578,6 +578,7 @@ GameObject:
   - component: {fileID: 846851378}
   - component: {fileID: 846851377}
   - component: {fileID: 846851376}
+  - component: {fileID: 846851381}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -1037,6 +1038,19 @@ MonoBehaviour:
       m_SingletonActionBindings: []
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &846851381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846851374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e3d785f2c9725646a236f44eec15a70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normcoreObject: {fileID: 1709914617}
 --- !u!1 &866183068
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,7 +1735,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1946692856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25179ab9a08f1f04581090f1fc6a1741, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e3d785f2c9725646a236f44eec15a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   normcoreObject: {fileID: 1709914617}
