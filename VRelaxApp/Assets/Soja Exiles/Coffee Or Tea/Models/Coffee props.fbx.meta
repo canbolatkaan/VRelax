@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 43b6f36adc72d6140a8da4c1ed60b31a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Beans
+    100002: Beans.001
+    100004: Beans.002
+    100006: Can Coffee
+    100008: Can Coffee Tall
+    100010: Cap
+    100012: Cap.001
+    100014: //RootNode
+    100016: Glass Cap
+    100018: Glass Container Large
+    100020: Glass Container Small
+    100022: Glass Container Tall
+    100024: Lid
+    100026: Lid.001
+    100028: Milk Froth cup
+    100030: Plastic
+    400000: Beans
+    400002: Beans.001
+    400004: Beans.002
+    400006: Can Coffee
+    400008: Can Coffee Tall
+    400010: Cap
+    400012: Cap.001
+    400014: //RootNode
+    400016: Glass Cap
+    400018: Glass Container Large
+    400020: Glass Container Small
+    400022: Glass Container Tall
+    400024: Lid
+    400026: Lid.001
+    400028: Milk Froth cup
+    400030: Plastic
+    2100000: No Name
+    2300000: Beans
+    2300002: Beans.001
+    2300004: Beans.002
+    2300006: Can Coffee
+    2300008: Can Coffee Tall
+    2300010: Cap
+    2300012: Cap.001
+    2300014: Glass Cap
+    2300016: Glass Container Large
+    2300018: Glass Container Small
+    2300020: Glass Container Tall
+    2300022: Lid
+    2300024: Lid.001
+    2300026: Milk Froth cup
+    2300028: Plastic
+    3300000: Beans
+    3300002: Beans.001
+    3300004: Beans.002
+    3300006: Can Coffee
+    3300008: Can Coffee Tall
+    3300010: Cap
+    3300012: Cap.001
+    3300014: Glass Cap
+    3300016: Glass Container Large
+    3300018: Glass Container Small
+    3300020: Glass Container Tall
+    3300022: Lid
+    3300024: Lid.001
+    3300026: Milk Froth cup
+    3300028: Plastic
+    4300000: Glass Container Tall
+    4300002: Cap
+    4300004: Beans
+    4300006: Glass Container Small
+    4300008: Beans.002
+    4300010: Cap.001
+    4300012: Glass Container Large
+    4300014: Beans.001
+    4300016: Glass Cap
+    4300018: Plastic
+    4300020: Milk Froth cup
+    4300022: Can Coffee Tall
+    4300024: Lid.001
+    4300026: Can Coffee
+    4300028: Lid
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

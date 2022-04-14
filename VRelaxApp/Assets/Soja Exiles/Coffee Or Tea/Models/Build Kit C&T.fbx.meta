@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: 3feecf0b71a2a34488a4749f237a3b44
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BoarderStairs_01
+    100002: BoarderStairs_02
+    100004: BoarderStairs_02.001
+    100006: BoarderStairs_04
+    100008: //RootNode
+    100010: Door_Window
+    100012: Door_Window.001
+    100014: Ext_Door_C&T_03.001
+    100016: Ext_Door_Handle_01
+    100018: Ext_Door_Handle_02
+    100020: HandRail_01
+    100022: HandRail_02
+    100024: HandRail_03
+    100026: HandRail_04
+    100028: HandRail_05
+    100030: HandRail_06
+    100032: HandRail_07
+    100034: HandRail_08
+    100036: HandRail_09
+    100038: Int_Rail_C&T_01
+    100040: Int_Rail_C&T_01 MC
+    100042: Int_Rail_C&T_02
+    100044: Int_Rail_C&T_02 MC
+    100046: Int_Rail_C&T_03
+    100048: Int_Rail_C&T_03 MC
+    100050: Int_Rail_C&T_04
+    100052: Int_Rail_C&T_04 MC
+    100054: Int_Stairs_C&T_01
+    100056: Int_Stairs_C&T_01 MC
+    100058: Int_Stairs_C&T_02
+    100060: Int_Stairs_C&T_02 MC
+    100062: Int_Stairs_C&T_03
+    100064: Int_Stairs_C&T_03 MC
+    100066: Int_Stairs_C&T_04
+    100068: Int_Stairs_C&T_04 MC
+    100070: Int_Steps_03
+    100072: Int_Steps_05
+    100074: Int_Steps_06
+    100076: Int_Steps_07
+    100078: Int_Steps_PlatForm_01
+    100080: Int_Steps_PlatForm_02
+    100082: Int_Steps_PlatForm_03
+    100084: IntExt_BasicWindow_C&T_01
+    100086: IntExt_BasicWindow_C&T_02
+    100088: IntExt_BasicWindow_C&T_03
+    100090: IntExt_BasicWindow_C&T_04
+    100092: IntExt_BasicWindow_C&T_05
+    100094: IntExt_BasicWindow_C&T_06
+    100096: IntExt_FrameGlass
+    100098: IntExt_Glass
+    100100: IntExt_Glass.001
+    100102: IntExt_Glass.002
+    100104: IntExt_Glass.003
+    100106: IntExt_Glass.004
+    100108: IntExt_Glass.005
+    100110: IntExt_LongGlass
+    100112: IntExt_LongWindow_C&T_01
+    100114: IntExt_WindowDoorFrame_C&T_01
+    400000: BoarderStairs_01
+    400002: BoarderStairs_02
+    400004: BoarderStairs_02.001
+    400006: BoarderStairs_04
+    400008: //RootNode
+    400010: Door_Window
+    400012: Door_Window.001
+    400014: Ext_Door_C&T_03.001
+    400016: Ext_Door_Handle_01
+    400018: Ext_Door_Handle_02
+    400020: HandRail_01
+    400022: HandRail_02
+    400024: HandRail_03
+    400026: HandRail_04
+    400028: HandRail_05
+    400030: HandRail_06
+    400032: HandRail_07
+    400034: HandRail_08
+    400036: HandRail_09
+    400038: Int_Rail_C&T_01
+    400040: Int_Rail_C&T_01 MC
+    400042: Int_Rail_C&T_02
+    400044: Int_Rail_C&T_02 MC
+    400046: Int_Rail_C&T_03
+    400048: Int_Rail_C&T_03 MC
+    400050: Int_Rail_C&T_04
+    400052: Int_Rail_C&T_04 MC
+    400054: Int_Stairs_C&T_01
+    400056: Int_Stairs_C&T_01 MC
+    400058: Int_Stairs_C&T_02
+    400060: Int_Stairs_C&T_02 MC
+    400062: Int_Stairs_C&T_03
+    400064: Int_Stairs_C&T_03 MC
+    400066: Int_Stairs_C&T_04
+    400068: Int_Stairs_C&T_04 MC
+    400070: Int_Steps_03
+    400072: Int_Steps_05
+    400074: Int_Steps_06
+    400076: Int_Steps_07
+    400078: Int_Steps_PlatForm_01
+    400080: Int_Steps_PlatForm_02
+    400082: Int_Steps_PlatForm_03
+    400084: IntExt_BasicWindow_C&T_01
+    400086: IntExt_BasicWindow_C&T_02
+    400088: IntExt_BasicWindow_C&T_03
+    400090: IntExt_BasicWindow_C&T_04
+    400092: IntExt_BasicWindow_C&T_05
+    400094: IntExt_BasicWindow_C&T_06
+    400096: IntExt_FrameGlass
+    400098: IntExt_Glass
+    400100: IntExt_Glass.001
+    400102: IntExt_Glass.002
+    400104: IntExt_Glass.003
+    400106: IntExt_Glass.004
+    400108: IntExt_Glass.005
+    400110: IntExt_LongGlass
+    400112: IntExt_LongWindow_C&T_01
+    400114: IntExt_WindowDoorFrame_C&T_01
+    2100000: No Name
+    2300000: BoarderStairs_01
+    2300002: BoarderStairs_02
+    2300004: BoarderStairs_02.001
+    2300006: BoarderStairs_04
+    2300008: Door_Window
+    2300010: Door_Window.001
+    2300012: Ext_Door_C&T_03.001
+    2300014: Ext_Door_Handle_01
+    2300016: Ext_Door_Handle_02
+    2300018: HandRail_01
+    2300020: HandRail_02
+    2300022: HandRail_03
+    2300024: HandRail_04
+    2300026: HandRail_05
+    2300028: HandRail_06
+    2300030: HandRail_07
+    2300032: HandRail_08
+    2300034: HandRail_09
+    2300036: Int_Rail_C&T_01
+    2300038: Int_Rail_C&T_01 MC
+    2300040: Int_Rail_C&T_02
+    2300042: Int_Rail_C&T_02 MC
+    2300044: Int_Rail_C&T_03
+    2300046: Int_Rail_C&T_03 MC
+    2300048: Int_Rail_C&T_04
+    2300050: Int_Rail_C&T_04 MC
+    2300052: Int_Stairs_C&T_01
+    2300054: Int_Stairs_C&T_01 MC
+    2300056: Int_Stairs_C&T_02
+    2300058: Int_Stairs_C&T_02 MC
+    2300060: Int_Stairs_C&T_03
+    2300062: Int_Stairs_C&T_03 MC
+    2300064: Int_Stairs_C&T_04
+    2300066: Int_Stairs_C&T_04 MC
+    2300068: Int_Steps_03
+    2300070: Int_Steps_05
+    2300072: Int_Steps_06
+    2300074: Int_Steps_07
+    2300076: Int_Steps_PlatForm_01
+    2300078: Int_Steps_PlatForm_02
+    2300080: Int_Steps_PlatForm_03
+    2300082: IntExt_BasicWindow_C&T_01
+    2300084: IntExt_BasicWindow_C&T_02
+    2300086: IntExt_BasicWindow_C&T_03
+    2300088: IntExt_BasicWindow_C&T_04
+    2300090: IntExt_BasicWindow_C&T_05
+    2300092: IntExt_BasicWindow_C&T_06
+    2300094: IntExt_FrameGlass
+    2300096: IntExt_Glass
+    2300098: IntExt_Glass.001
+    2300100: IntExt_Glass.002
+    2300102: IntExt_Glass.003
+    2300104: IntExt_Glass.004
+    2300106: IntExt_Glass.005
+    2300108: IntExt_LongGlass
+    2300110: IntExt_LongWindow_C&T_01
+    2300112: IntExt_WindowDoorFrame_C&T_01
+    3300000: BoarderStairs_01
+    3300002: BoarderStairs_02
+    3300004: BoarderStairs_02.001
+    3300006: BoarderStairs_04
+    3300008: Door_Window
+    3300010: Door_Window.001
+    3300012: Ext_Door_C&T_03.001
+    3300014: Ext_Door_Handle_01
+    3300016: Ext_Door_Handle_02
+    3300018: HandRail_01
+    3300020: HandRail_02
+    3300022: HandRail_03
+    3300024: HandRail_04
+    3300026: HandRail_05
+    3300028: HandRail_06
+    3300030: HandRail_07
+    3300032: HandRail_08
+    3300034: HandRail_09
+    3300036: Int_Rail_C&T_01
+    3300038: Int_Rail_C&T_01 MC
+    3300040: Int_Rail_C&T_02
+    3300042: Int_Rail_C&T_02 MC
+    3300044: Int_Rail_C&T_03
+    3300046: Int_Rail_C&T_03 MC
+    3300048: Int_Rail_C&T_04
+    3300050: Int_Rail_C&T_04 MC
+    3300052: Int_Stairs_C&T_01
+    3300054: Int_Stairs_C&T_01 MC
+    3300056: Int_Stairs_C&T_02
+    3300058: Int_Stairs_C&T_02 MC
+    3300060: Int_Stairs_C&T_03
+    3300062: Int_Stairs_C&T_03 MC
+    3300064: Int_Stairs_C&T_04
+    3300066: Int_Stairs_C&T_04 MC
+    3300068: Int_Steps_03
+    3300070: Int_Steps_05
+    3300072: Int_Steps_06
+    3300074: Int_Steps_07
+    3300076: Int_Steps_PlatForm_01
+    3300078: Int_Steps_PlatForm_02
+    3300080: Int_Steps_PlatForm_03
+    3300082: IntExt_BasicWindow_C&T_01
+    3300084: IntExt_BasicWindow_C&T_02
+    3300086: IntExt_BasicWindow_C&T_03
+    3300088: IntExt_BasicWindow_C&T_04
+    3300090: IntExt_BasicWindow_C&T_05
+    3300092: IntExt_BasicWindow_C&T_06
+    3300094: IntExt_FrameGlass
+    3300096: IntExt_Glass
+    3300098: IntExt_Glass.001
+    3300100: IntExt_Glass.002
+    3300102: IntExt_Glass.003
+    3300104: IntExt_Glass.004
+    3300106: IntExt_Glass.005
+    3300108: IntExt_LongGlass
+    3300110: IntExt_LongWindow_C&T_01
+    3300112: IntExt_WindowDoorFrame_C&T_01
+    4300000: Int_Stairs_C&T_02 MC
+    4300002: Int_Stairs_C&T_03 MC
+    4300004: Int_Stairs_C&T_04 MC
+    4300006: Int_Stairs_C&T_01 MC
+    4300008: Int_Rail_C&T_01 MC
+    4300010: Int_Rail_C&T_02 MC
+    4300012: Int_Rail_C&T_03 MC
+    4300014: Int_Stairs_C&T_04
+    4300016: Int_Steps_PlatForm_03
+    4300018: BoarderStairs_04
+    4300020: HandRail_09
+    4300022: Int_Steps_07
+    4300024: HandRail_08
+    4300026: IntExt_WindowDoorFrame_C&T_01
+    4300028: IntExt_FrameGlass
+    4300030: Ext_Door_C&T_03.001
+    4300032: Ext_Door_Handle_02
+    4300034: Ext_Door_Handle_01
+    4300036: Door_Window.001
+    4300038: Door_Window
+    4300040: Int_Stairs_C&T_03
+    4300042: Int_Steps_05
+    4300044: HandRail_06
+    4300046: Int_Steps_PlatForm_02
+    4300048: Int_Steps_06
+    4300050: BoarderStairs_02.001
+    4300052: HandRail_05
+    4300054: HandRail_07
+    4300056: Int_Stairs_C&T_02
+    4300058: HandRail_03
+    4300060: Int_Steps_PlatForm_01
+    4300062: Int_Steps_03
+    4300064: BoarderStairs_02
+    4300066: HandRail_04
+    4300068: Int_Rail_C&T_03
+    4300070: Int_Rail_C&T_01
+    4300072: Int_Rail_C&T_04 MC
+    4300074: Int_Rail_C&T_04
+    4300076: Int_Rail_C&T_02
+    4300078: Int_Stairs_C&T_01
+    4300080: HandRail_02
+    4300082: BoarderStairs_01
+    4300084: HandRail_01
+    4300086: IntExt_BasicWindow_C&T_06
+    4300088: IntExt_Glass.005
+    4300090: IntExt_BasicWindow_C&T_05
+    4300092: IntExt_Glass
+    4300094: IntExt_BasicWindow_C&T_03
+    4300096: IntExt_Glass.004
+    4300098: IntExt_BasicWindow_C&T_04
+    4300100: IntExt_Glass.003
+    4300102: IntExt_BasicWindow_C&T_02
+    4300104: IntExt_Glass.002
+    4300106: IntExt_BasicWindow_C&T_01
+    4300108: IntExt_Glass.001
+    4300110: IntExt_LongWindow_C&T_01
+    4300112: IntExt_LongGlass
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

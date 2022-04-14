@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: 2028868736ee2cb41bc391696a40974c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Base.000
+    100002: Base.001
+    100004: Base.003
+    100006: Big Bulb
+    100008: Big Bulb.001
+    100010: Big Bulb.002
+    100012: Bulb
+    100014: Bulb.001
+    100016: Bulb.002
+    100018: Bulb.003
+    100020: Bulb.004
+    100022: Bulb.005
+    100024: Bulb.006
+    100026: Bulb.007
+    100028: Bulb.008
+    100030: Bulb.009
+    100032: Bulb.010
+    100034: Bulb.011
+    100036: Bulb.012
+    100038: Bulb.013
+    100040: Cage
+    100042: Cage.001
+    100044: Cage.002
+    100046: Ceiling Light_01
+    100048: Ceiling Light_01-Long Pole
+    100050: Ceiling Light_01-Low Hanging
+    100052: Ceiling Light_02
+    100054: Ceiling Light_02-Long Pole
+    100056: Ceiling Light_02-Low Hanging
+    100058: Ceiling Light_03
+    100060: Ceiling Light_03-Long Pole
+    100062: Ceiling Light_03-Low Hanging
+    100064: Ceiling Light_04
+    100066: Ceiling Light_04-Long Pole
+    100068: Ceiling Light_04-Low Hanging
+    100070: //RootNode
+    100072: Shade
+    100074: Shade.001
+    100076: Shade.002
+    100078: Socket
+    100080: Socket.001
+    100082: Socket.002
+    100084: Socket.003
+    100086: Socket.004
+    100088: Socket.005
+    100090: Socket.006
+    100092: Socket.007
+    100094: Socket.008
+    100096: Socket.009
+    100098: Socket.010
+    100100: Socket.011
+    100102: Socket.012
+    100104: Socket.013
+    100106: Socket.015
+    100108: Socket.016
+    400000: Base.000
+    400002: Base.001
+    400004: Base.003
+    400006: Big Bulb
+    400008: Big Bulb.001
+    400010: Big Bulb.002
+    400012: Bulb
+    400014: Bulb.001
+    400016: Bulb.002
+    400018: Bulb.003
+    400020: Bulb.004
+    400022: Bulb.005
+    400024: Bulb.006
+    400026: Bulb.007
+    400028: Bulb.008
+    400030: Bulb.009
+    400032: Bulb.010
+    400034: Bulb.011
+    400036: Bulb.012
+    400038: Bulb.013
+    400040: Cage
+    400042: Cage.001
+    400044: Cage.002
+    400046: Ceiling Light_01
+    400048: Ceiling Light_01-Long Pole
+    400050: Ceiling Light_01-Low Hanging
+    400052: Ceiling Light_02
+    400054: Ceiling Light_02-Long Pole
+    400056: Ceiling Light_02-Low Hanging
+    400058: Ceiling Light_03
+    400060: Ceiling Light_03-Long Pole
+    400062: Ceiling Light_03-Low Hanging
+    400064: Ceiling Light_04
+    400066: Ceiling Light_04-Long Pole
+    400068: Ceiling Light_04-Low Hanging
+    400070: //RootNode
+    400072: Shade
+    400074: Shade.001
+    400076: Shade.002
+    400078: Socket
+    400080: Socket.001
+    400082: Socket.002
+    400084: Socket.003
+    400086: Socket.004
+    400088: Socket.005
+    400090: Socket.006
+    400092: Socket.007
+    400094: Socket.008
+    400096: Socket.009
+    400098: Socket.010
+    400100: Socket.011
+    400102: Socket.012
+    400104: Socket.013
+    400106: Socket.015
+    400108: Socket.016
+    2100000: No Name
+    2300000: Base.000
+    2300002: Base.001
+    2300004: Base.003
+    2300006: Big Bulb
+    2300008: Big Bulb.001
+    2300010: Big Bulb.002
+    2300012: Bulb
+    2300014: Bulb.001
+    2300016: Bulb.002
+    2300018: Bulb.003
+    2300020: Bulb.004
+    2300022: Bulb.005
+    2300024: Bulb.006
+    2300026: Bulb.007
+    2300028: Bulb.008
+    2300030: Bulb.009
+    2300032: Bulb.010
+    2300034: Bulb.011
+    2300036: Bulb.012
+    2300038: Bulb.013
+    2300040: Cage
+    2300042: Cage.001
+    2300044: Cage.002
+    2300046: Ceiling Light_01
+    2300048: Ceiling Light_01-Long Pole
+    2300050: Ceiling Light_01-Low Hanging
+    2300052: Ceiling Light_02
+    2300054: Ceiling Light_02-Long Pole
+    2300056: Ceiling Light_02-Low Hanging
+    2300058: Ceiling Light_03
+    2300060: Ceiling Light_03-Long Pole
+    2300062: Ceiling Light_03-Low Hanging
+    2300064: Ceiling Light_04
+    2300066: Ceiling Light_04-Long Pole
+    2300068: Ceiling Light_04-Low Hanging
+    2300070: Shade
+    2300072: Shade.001
+    2300074: Shade.002
+    2300076: Socket
+    2300078: Socket.001
+    2300080: Socket.002
+    2300082: Socket.003
+    2300084: Socket.004
+    2300086: Socket.005
+    2300088: Socket.006
+    2300090: Socket.007
+    2300092: Socket.008
+    2300094: Socket.009
+    2300096: Socket.010
+    2300098: Socket.011
+    2300100: Socket.012
+    2300102: Socket.013
+    2300104: Socket.015
+    2300106: Socket.016
+    3300000: Base.000
+    3300002: Base.001
+    3300004: Base.003
+    3300006: Big Bulb
+    3300008: Big Bulb.001
+    3300010: Big Bulb.002
+    3300012: Bulb
+    3300014: Bulb.001
+    3300016: Bulb.002
+    3300018: Bulb.003
+    3300020: Bulb.004
+    3300022: Bulb.005
+    3300024: Bulb.006
+    3300026: Bulb.007
+    3300028: Bulb.008
+    3300030: Bulb.009
+    3300032: Bulb.010
+    3300034: Bulb.011
+    3300036: Bulb.012
+    3300038: Bulb.013
+    3300040: Cage
+    3300042: Cage.001
+    3300044: Cage.002
+    3300046: Ceiling Light_01
+    3300048: Ceiling Light_01-Long Pole
+    3300050: Ceiling Light_01-Low Hanging
+    3300052: Ceiling Light_02
+    3300054: Ceiling Light_02-Long Pole
+    3300056: Ceiling Light_02-Low Hanging
+    3300058: Ceiling Light_03
+    3300060: Ceiling Light_03-Long Pole
+    3300062: Ceiling Light_03-Low Hanging
+    3300064: Ceiling Light_04
+    3300066: Ceiling Light_04-Long Pole
+    3300068: Ceiling Light_04-Low Hanging
+    3300070: Shade
+    3300072: Shade.001
+    3300074: Shade.002
+    3300076: Socket
+    3300078: Socket.001
+    3300080: Socket.002
+    3300082: Socket.003
+    3300084: Socket.004
+    3300086: Socket.005
+    3300088: Socket.006
+    3300090: Socket.007
+    3300092: Socket.008
+    3300094: Socket.009
+    3300096: Socket.010
+    3300098: Socket.011
+    3300100: Socket.012
+    3300102: Socket.013
+    3300104: Socket.015
+    3300106: Socket.016
+    4300000: Ceiling Light_04-Long Pole
+    4300002: Base.003
+    4300004: Big Bulb
+    4300006: Ceiling Light_04
+    4300008: Base.001
+    4300010: Big Bulb.001
+    4300012: Ceiling Light_04-Low Hanging
+    4300014: Base.000
+    4300016: Big Bulb.002
+    4300018: Ceiling Light_03-Low Hanging
+    4300020: Socket.016
+    4300022: Bulb.013
+    4300024: Shade.002
+    4300026: Ceiling Light_03-Long Pole
+    4300028: Socket.015
+    4300030: Shade
+    4300032: Bulb
+    4300034: Ceiling Light_03
+    4300036: Socket.012
+    4300038: Bulb.012
+    4300040: Shade.001
+    4300042: Ceiling Light_01
+    4300044: Socket.011
+    4300046: Bulb.010
+    4300048: Ceiling Light_01-Long Pole
+    4300050: Socket.013
+    4300052: Bulb.011
+    4300054: Ceiling Light_01-Low Hanging
+    4300056: Socket.010
+    4300058: Socket
+    4300060: Ceiling Light_02-Long Pole
+    4300062: Cage.002
+    4300064: Socket.009
+    4300066: Bulb.009
+    4300068: Socket.008
+    4300070: Bulb.008
+    4300072: Socket.007
+    4300074: Bulb.007
+    4300076: Ceiling Light_02-Low Hanging
+    4300078: Cage.001
+    4300080: Socket.006
+    4300082: Bulb.006
+    4300084: Socket.005
+    4300086: Bulb.005
+    4300088: Socket.004
+    4300090: Bulb.004
+    4300092: Ceiling Light_02
+    4300094: Cage
+    4300096: Socket.003
+    4300098: Bulb.003
+    4300100: Socket.002
+    4300102: Bulb.001
+    4300104: Socket.001
+    4300106: Bulb.002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

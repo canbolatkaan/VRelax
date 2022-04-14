@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 61bb51babd7bb5e4b8c9c7f12c59c51b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Counter Short Service
+    100004: Counter Short Sink
+    100006: Door
+    100008: Door.001
+    100010: Door.002
+    100012: Door.003
+    100014: Drain
+    100016: Faucet
+    100018: Frame.001
+    100020: Glass Screen
+    100022: Handle
+    100024: Knob
+    100026: Knob.001
+    100028: Knob.002
+    100030: Knob.003
+    100032: Picture
+    100034: Picture Frame
+    100036: Picture Frame Large
+    100038: Picture.002
+    100040: POS System Stand
+    100042: Screen
+    100044: Shelf
+    100046: Sign Large
+    100048: Sign Small
+    100050: Sign Stand
+    100052: Sign Stand Small
+    100054: Sign Wall Large
+    100056: sign Wall Small
+    100058: Sink
+    100060: Swipper
+    400000: //RootNode
+    400002: Counter Short Service
+    400004: Counter Short Sink
+    400006: Door
+    400008: Door.001
+    400010: Door.002
+    400012: Door.003
+    400014: Drain
+    400016: Faucet
+    400018: Frame.001
+    400020: Glass Screen
+    400022: Handle
+    400024: Knob
+    400026: Knob.001
+    400028: Knob.002
+    400030: Knob.003
+    400032: Picture
+    400034: Picture Frame
+    400036: Picture Frame Large
+    400038: Picture.002
+    400040: POS System Stand
+    400042: Screen
+    400044: Shelf
+    400046: Sign Large
+    400048: Sign Small
+    400050: Sign Stand
+    400052: Sign Stand Small
+    400054: Sign Wall Large
+    400056: sign Wall Small
+    400058: Sink
+    400060: Swipper
+    2100000: No Name
+    2300000: Counter Short Service
+    2300002: Counter Short Sink
+    2300004: Door
+    2300006: Door.001
+    2300008: Door.002
+    2300010: Door.003
+    2300012: Drain
+    2300014: Faucet
+    2300016: Frame.001
+    2300018: Glass Screen
+    2300020: Handle
+    2300022: Knob
+    2300024: Knob.001
+    2300026: Knob.002
+    2300028: Knob.003
+    2300030: Picture
+    2300032: Picture Frame
+    2300034: Picture Frame Large
+    2300036: Picture.002
+    2300038: POS System Stand
+    2300040: Screen
+    2300042: Shelf
+    2300044: Sign Large
+    2300046: Sign Small
+    2300048: Sign Stand
+    2300050: Sign Stand Small
+    2300052: Sign Wall Large
+    2300054: sign Wall Small
+    2300056: Sink
+    2300058: Swipper
+    3300000: Counter Short Service
+    3300002: Counter Short Sink
+    3300004: Door
+    3300006: Door.001
+    3300008: Door.002
+    3300010: Door.003
+    3300012: Drain
+    3300014: Faucet
+    3300016: Frame.001
+    3300018: Glass Screen
+    3300020: Handle
+    3300022: Knob
+    3300024: Knob.001
+    3300026: Knob.002
+    3300028: Knob.003
+    3300030: Picture
+    3300032: Picture Frame
+    3300034: Picture Frame Large
+    3300036: Picture.002
+    3300038: POS System Stand
+    3300040: Screen
+    3300042: Shelf
+    3300044: Sign Large
+    3300046: Sign Small
+    3300048: Sign Stand
+    3300050: Sign Stand Small
+    3300052: Sign Wall Large
+    3300054: sign Wall Small
+    3300056: Sink
+    3300058: Swipper
+    4300000: Picture Frame Large
+    4300002: Picture.002
+    4300004: Picture Frame
+    4300006: Picture
+    4300008: sign Wall Small
+    4300010: Sign Wall Large
+    4300012: Sign Stand
+    4300014: Sign Large
+    4300016: Counter Short Sink
+    4300018: Sink
+    4300020: Faucet
+    4300022: Handle
+    4300024: Drain
+    4300026: Door.003
+    4300028: Knob.003
+    4300030: Door.002
+    4300032: Knob.002
+    4300034: Counter Short Service
+    4300036: Door
+    4300038: Knob
+    4300040: Door.001
+    4300042: Knob.001
+    4300044: Shelf
+    4300046: POS System Stand
+    4300048: Swipper
+    4300050: Frame.001
+    4300052: Glass Screen
+    4300054: Screen
+    4300056: Sign Stand Small
+    4300058: Sign Small
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

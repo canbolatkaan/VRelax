@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: ab67878fc008ac949bb10ba806904f93
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bean Spout
+    100002: Beans
+    100004: Beans Grinder
+    100006: Beans Holder
+    100008: Beans Holder.001
+    100010: Beans.001
+    100012: Beans.002
+    100014: Brewer
+    100016: Button
+    100018: Button Base
+    100020: Button Base.001
+    100022: Button Base.002
+    100024: Button Base.003
+    100026: Button Base.004
+    100028: Button Base.005
+    100030: Button Base.006
+    100032: Button Base.007
+    100034: Button.001
+    100036: Button.002
+    100038: Button.003
+    100040: Button.004
+    100042: Button.005
+    100044: Button.006
+    100046: Button.007
+    100048: Coffee Drip Machine
+    100050: //RootNode
+    100052: Dial
+    100054: Dial Base
+    100056: Dial Base.001
+    100058: Dial Base.002
+    100060: Dial Base.004
+    100062: Dial.001
+    100064: Dial.002
+    100066: Dial.004
+    100068: Display
+    100070: Display Base
+    100072: Display Base.001
+    100074: Display.001
+    100076: Espresso Machine Body
+    100078: Espresso Machine Mini
+    100080: Grate
+    100082: Grate.001
+    100084: Handle
+    100086: Handle.001
+    100088: Handle.002
+    100090: Handle.004
+    100092: Heat Base
+    100094: Spout
+    100096: Spout.001
+    100098: Spout.002
+    100100: Spout.003
+    100102: Spout.005
+    100104: Steam Wand
+    100106: Steam Wand Hold
+    100108: Steam Wand Hold.001
+    100110: Steam Wand Pole
+    100112: Steam Wand Pole.001
+    100114: Steam Wand.001
+    100116: Steam Want Handle
+    100118: Steam Want Handle.001
+    100120: Top
+    100122: Wood Side
+    100124: Wood Side.001
+    100126: Wood Side.002
+    100128: Wood Side.003
+    400000: Bean Spout
+    400002: Beans
+    400004: Beans Grinder
+    400006: Beans Holder
+    400008: Beans Holder.001
+    400010: Beans.001
+    400012: Beans.002
+    400014: Brewer
+    400016: Button
+    400018: Button Base
+    400020: Button Base.001
+    400022: Button Base.002
+    400024: Button Base.003
+    400026: Button Base.004
+    400028: Button Base.005
+    400030: Button Base.006
+    400032: Button Base.007
+    400034: Button.001
+    400036: Button.002
+    400038: Button.003
+    400040: Button.004
+    400042: Button.005
+    400044: Button.006
+    400046: Button.007
+    400048: Coffee Drip Machine
+    400050: //RootNode
+    400052: Dial
+    400054: Dial Base
+    400056: Dial Base.001
+    400058: Dial Base.002
+    400060: Dial Base.004
+    400062: Dial.001
+    400064: Dial.002
+    400066: Dial.004
+    400068: Display
+    400070: Display Base
+    400072: Display Base.001
+    400074: Display.001
+    400076: Espresso Machine Body
+    400078: Espresso Machine Mini
+    400080: Grate
+    400082: Grate.001
+    400084: Handle
+    400086: Handle.001
+    400088: Handle.002
+    400090: Handle.004
+    400092: Heat Base
+    400094: Spout
+    400096: Spout.001
+    400098: Spout.002
+    400100: Spout.003
+    400102: Spout.005
+    400104: Steam Wand
+    400106: Steam Wand Hold
+    400108: Steam Wand Hold.001
+    400110: Steam Wand Pole
+    400112: Steam Wand Pole.001
+    400114: Steam Wand.001
+    400116: Steam Want Handle
+    400118: Steam Want Handle.001
+    400120: Top
+    400122: Wood Side
+    400124: Wood Side.001
+    400126: Wood Side.002
+    400128: Wood Side.003
+    2100000: No Name
+    2100002: Material.001
+    2300000: Bean Spout
+    2300002: Beans
+    2300004: Beans Grinder
+    2300006: Beans Holder
+    2300008: Beans Holder.001
+    2300010: Beans.001
+    2300012: Beans.002
+    2300014: Brewer
+    2300016: Button
+    2300018: Button Base
+    2300020: Button Base.001
+    2300022: Button Base.002
+    2300024: Button Base.003
+    2300026: Button Base.004
+    2300028: Button Base.005
+    2300030: Button Base.006
+    2300032: Button Base.007
+    2300034: Button.001
+    2300036: Button.002
+    2300038: Button.003
+    2300040: Button.004
+    2300042: Button.005
+    2300044: Button.006
+    2300046: Button.007
+    2300048: Coffee Drip Machine
+    2300050: Dial
+    2300052: Dial Base
+    2300054: Dial Base.001
+    2300056: Dial Base.002
+    2300058: Dial Base.004
+    2300060: Dial.001
+    2300062: Dial.002
+    2300064: Dial.004
+    2300066: Display
+    2300068: Display Base
+    2300070: Display Base.001
+    2300072: Display.001
+    2300074: Espresso Machine Body
+    2300076: Espresso Machine Mini
+    2300078: Grate
+    2300080: Grate.001
+    2300082: Handle
+    2300084: Handle.001
+    2300086: Handle.002
+    2300088: Handle.004
+    2300090: Heat Base
+    2300092: Spout
+    2300094: Spout.001
+    2300096: Spout.002
+    2300098: Spout.003
+    2300100: Spout.005
+    2300102: Steam Wand
+    2300104: Steam Wand Hold
+    2300106: Steam Wand Hold.001
+    2300108: Steam Wand Pole
+    2300110: Steam Wand Pole.001
+    2300112: Steam Wand.001
+    2300114: Steam Want Handle
+    2300116: Steam Want Handle.001
+    2300118: Top
+    2300120: Wood Side
+    2300122: Wood Side.001
+    2300124: Wood Side.002
+    2300126: Wood Side.003
+    3300000: Bean Spout
+    3300002: Beans
+    3300004: Beans Grinder
+    3300006: Beans Holder
+    3300008: Beans Holder.001
+    3300010: Beans.001
+    3300012: Beans.002
+    3300014: Brewer
+    3300016: Button
+    3300018: Button Base
+    3300020: Button Base.001
+    3300022: Button Base.002
+    3300024: Button Base.003
+    3300026: Button Base.004
+    3300028: Button Base.005
+    3300030: Button Base.006
+    3300032: Button Base.007
+    3300034: Button.001
+    3300036: Button.002
+    3300038: Button.003
+    3300040: Button.004
+    3300042: Button.005
+    3300044: Button.006
+    3300046: Button.007
+    3300048: Coffee Drip Machine
+    3300050: Dial
+    3300052: Dial Base
+    3300054: Dial Base.001
+    3300056: Dial Base.002
+    3300058: Dial Base.004
+    3300060: Dial.001
+    3300062: Dial.002
+    3300064: Dial.004
+    3300066: Display
+    3300068: Display Base
+    3300070: Display Base.001
+    3300072: Display.001
+    3300074: Espresso Machine Body
+    3300076: Espresso Machine Mini
+    3300078: Grate
+    3300080: Grate.001
+    3300082: Handle
+    3300084: Handle.001
+    3300086: Handle.002
+    3300088: Handle.004
+    3300090: Heat Base
+    3300092: Spout
+    3300094: Spout.001
+    3300096: Spout.002
+    3300098: Spout.003
+    3300100: Spout.005
+    3300102: Steam Wand
+    3300104: Steam Wand Hold
+    3300106: Steam Wand Hold.001
+    3300108: Steam Wand Pole
+    3300110: Steam Wand Pole.001
+    3300112: Steam Wand.001
+    3300114: Steam Want Handle
+    3300116: Steam Want Handle.001
+    3300118: Top
+    3300120: Wood Side
+    3300122: Wood Side.001
+    3300124: Wood Side.002
+    3300126: Wood Side.003
+    4300000: Espresso Machine Mini
+    4300002: Beans Holder.001
+    4300004: Beans.002
+    4300006: Grate.001
+    4300008: Steam Wand Hold.001
+    4300010: Steam Want Handle.001
+    4300012: Steam Wand.001
+    4300014: Steam Wand Pole.001
+    4300016: Wood Side.003
+    4300018: Wood Side.002
+    4300020: Dial Base.004
+    4300022: Dial.004
+    4300024: Handle.004
+    4300026: Spout.005
+    4300028: Button Base.007
+    4300030: Button.007
+    4300032: Button Base.006
+    4300034: Button.006
+    4300036: Display Base.001
+    4300038: Display.001
+    4300040: Espresso Machine Body
+    4300042: Beans.001
+    4300044: Display Base
+    4300046: Display
+    4300048: Button Base.004
+    4300050: Button.004
+    4300052: Button Base.002
+    4300054: Button.002
+    4300056: Button Base.001
+    4300058: Button.001
+    4300060: Button Base
+    4300062: Button
+    4300064: Handle.001
+    4300066: Spout
+    4300068: Handle
+    4300070: Spout.001
+    4300072: Dial Base.001
+    4300074: Dial.001
+    4300076: Dial Base
+    4300078: Dial
+    4300080: Wood Side.001
+    4300082: Wood Side
+    4300084: Steam Wand
+    4300086: Steam Wand Pole
+    4300088: Steam Wand Hold
+    4300090: Steam Want Handle
+    4300092: Dial Base.002
+    4300094: Dial.002
+    4300096: Handle.002
+    4300098: Spout.002
+    4300100: Grate
+    4300102: Button Base.003
+    4300104: Button.003
+    4300106: Button Base.005
+    4300108: Button.005
+    4300110: Beans Holder
+    4300112: Coffee Drip Machine
+    4300114: Beans Grinder
+    4300116: Heat Base
+    4300118: Spout.003
+    4300120: Top
+    4300122: Brewer
+    4300124: Beans
+    4300126: Bean Spout
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
