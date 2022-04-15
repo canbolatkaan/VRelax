@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "firebase_url":"null",
-    "project_number": "882920509451",
-    "project_id": "vrelax-19604",
-    "storage_bucket": "vrelax-19604.appspot.com"
+    "project_number": "908008408694",
+    "project_id": "vrelaxapp-fabe6",
+    "storage_bucket": "vrelaxapp-fabe6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:882920509451:android:422506d27407a3dbb7770e",
+        "mobilesdk_app_id": "1:908008408694:android:e5956f8d04c0d51d034157",
         "android_client_info": {
           "package_name": "com.DefaultCompany.VRelax"
         }
       },
       "oauth_client": [
         {
-          "client_id": "882920509451-eqti1g3dc3tech9ikg1gvs4p16gkk14f.apps.googleusercontent.com",
+          "client_id": "908008408694-su03g3vhv2826snl98gtm0sl78m08hs7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDpURB32K-LEmX48aCrWy738b8_pB7XqgI"
+          "current_key": "AIzaSyDSFLW0z9QEe84vVH8lwa-dDdUmVfT89wY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "882920509451-eqti1g3dc3tech9ikg1gvs4p16gkk14f.apps.googleusercontent.com",
+              "client_id": "908008408694-su03g3vhv2826snl98gtm0sl78m08hs7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

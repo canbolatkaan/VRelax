@@ -254,7 +254,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.9, y: -36.2}
+  m_AnchoredPosition: {x: -1.9, y: -44.9}
   m_SizeDelta: {x: 40, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32894326
@@ -484,7 +484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.7, y: 39.8}
+  m_AnchoredPosition: {x: 26.7, y: 42.5}
   m_SizeDelta: {x: 40, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77693292
@@ -530,7 +530,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 77693293}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1412510486}
+        m_TargetAssemblyTypeName: WristMenu, Assembly-CSharp
+        m_MethodName: GoToAnonimSohbetler
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &77693293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1998,7 +2010,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -29.7, y: 39.4}
+  m_AnchoredPosition: {x: -29.7, y: 42.9}
   m_SizeDelta: {x: 40, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &208838308
@@ -2044,7 +2056,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 208838309}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1412510486}
+        m_TargetAssemblyTypeName: WristMenu, Assembly-CSharp
+        m_MethodName: GoToApartment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &208838309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2440,7 +2464,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -29.7, y: -21}
+  m_AnchoredPosition: {x: -29.7, y: -27.6}
   m_SizeDelta: {x: 40, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &285274829
@@ -2486,7 +2510,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 285274830}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1412510486}
+        m_TargetAssemblyTypeName: WristMenu, Assembly-CSharp
+        m_MethodName: GoSciFi_Bowling
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &285274830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2997,7 +3033,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &389147943
 MonoBehaviour:
@@ -4039,7 +4075,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 516729745}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1412510486}
+        m_TargetAssemblyTypeName: WristMenu, Assembly-CSharp
+        m_MethodName: GoKovboySalonu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &516729745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4799,7 +4847,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 660643092}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1412510486}
+        m_TargetAssemblyTypeName: WristMenu, Assembly-CSharp
+        m_MethodName: GoToFitness
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &660643092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5506,7 +5566,7 @@ RectTransform:
   m_GameObject: {fileID: 775688091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 0.01, y: 0.015, z: 0.01}
   m_Children:
   - {fileID: 1854264964}
   - {fileID: 1969573423}
@@ -7638,7 +7698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1361222886
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7949,7 +8009,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1381658243}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1412510486}
+        m_TargetAssemblyTypeName: WristMenu, Assembly-CSharp
+        m_MethodName: GoToCoffeShop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1381658243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9020,7 +9092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4520454903943832, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4520454903943832, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9069,19 +9141,19 @@ PrefabInstance:
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localPlayer.head
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1227076329}
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localPlayer.root
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 282416919}
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localPlayer.leftHand
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1412510487}
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localPlayer.rightHand
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 105359409}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
 --- !u!1001 &1605254774
@@ -9330,7 +9402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: -21}
+  m_AnchoredPosition: {x: 27, y: -26.6}
   m_SizeDelta: {x: 40, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1662001970
@@ -9376,7 +9448,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1662001971}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1412510486}
+        m_TargetAssemblyTypeName: WristMenu, Assembly-CSharp
+        m_MethodName: GoYabaniOrman
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1662001971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10789,7 +10873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1969573423
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11122,7 +11206,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -29.7, y: -5.8}
+  m_AnchoredPosition: {x: -29.7, y: -9}
   m_SizeDelta: {x: 40, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2014533991
@@ -11168,7 +11252,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2014533992}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1412510486}
+        m_TargetAssemblyTypeName: WristMenu, Assembly-CSharp
+        m_MethodName: GoLowPoly
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2014533992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11351,7 +11447,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2038118818}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1412510486}
+        m_TargetAssemblyTypeName: WristMenu, Assembly-CSharp
+        m_MethodName: GoToFitness
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2038118818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11624,7 +11732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27.1, y: -5.8}
+  m_AnchoredPosition: {x: 27.1, y: -8.6}
   m_SizeDelta: {x: 40, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2132770922
@@ -11670,7 +11778,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2132770923}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1412510486}
+        m_TargetAssemblyTypeName: WristMenu, Assembly-CSharp
+        m_MethodName: GoLowPolyKoy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2132770923
 MonoBehaviour:
   m_ObjectHideFlags: 0
