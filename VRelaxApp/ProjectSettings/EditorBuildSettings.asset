@@ -6,8 +6,47 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: a661abbbe2e56724a8c30c56374c13ab
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 64556f2f3f950bc4da91f8d8c067ee57
+  - enabled: 1
+    path: Assets/Scenes/Apartment.unity
+    guid: d61c9e6d794a6c942bb127e9c011464e
+  - enabled: 1
+    path: Assets/Scenes/AnonimSohbetler.unity
+    guid: b94ee59f12f411f488e6df197429e012
+  - enabled: 1
+    path: Assets/Scenes/CoffeShop.unity
+    guid: 4f3bf91d864053a45bf36018aabe6854
+  - enabled: 1
     path: Assets/Scenes/Fitness.unity
     guid: a57d66dbabe811b4b8cc4c2aeadbc002
+  - enabled: 1
+    path: Assets/Scenes/Hiking_Kanyon.unity
+    guid: e1b793c40df980747b159fd6e9176269
+  - enabled: 1
+    path: Assets/Scenes/KovboySalonu.unity
+    guid: 5d5471248510e5945a95df196df0ba75
+  - enabled: 1
+    path: Assets/Scenes/LowPoly.unity
+    guid: 5e7af4bd95ac53a4cb784a9eedf8f6f9
+  - enabled: 1
+    path: Assets/Scenes/LowPoly_Koy.unity
+    guid: d2809ab9b90eea7419d8d90d4c505d35
+  - enabled: 1
+    path: Assets/Scenes/OrmanYuruyusu.unity
+    guid: 106025b4713992744bb2e8999d6a3608
+  - enabled: 1
+    path: Assets/Scenes/SciFi_Bowling.unity
+    guid: e8cf1d29775c7e24f9dd35148a6437c0
+  - enabled: 1
+    path: Assets/Scenes/Yabani_Orman.unity
+    guid: 2b90041c02fa0424794af2d500508091
+  - enabled: 1
+    path: Assets/Scenes/Keyboard.unity
+    guid: 21a78fb7400ec2e4b8d6f55b1d009863
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3d9894e8eb24b114e9706fce7b0db419, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 31b84dcea16af524cad140d851821398, type: 2}

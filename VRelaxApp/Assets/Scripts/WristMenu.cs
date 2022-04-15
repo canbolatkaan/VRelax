@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 public class WristMenu : MonoBehaviour
 {
     public GameObject wristUI;
@@ -18,9 +19,53 @@ public class WristMenu : MonoBehaviour
     }
     public void GoToLobby()
     {
-        Application.Quit();
-        Debug.Log("Application Quit");
+        SceneManager.LoadScene(1);
     }
+    public void GoToApartment()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void GoToAnonimSohbetler()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void GoToCoffeShop()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void GoToFitness()
+    {
+        SceneManager.LoadScene(5);
+    }
+    public void GoToHikingCanyon()
+    {
+        SceneManager.LoadScene(6);
+    }
+    public void GoKovboySalonu()
+    {
+        SceneManager.LoadScene(7);
+    }
+    public void GoLowPoly()
+    {
+        SceneManager.LoadScene(8);
+    }
+    public void GoLowPolyKoy()
+    {
+        SceneManager.LoadScene(9);
+    }
+    public void GoOrmanYuruyusu()
+    {
+        SceneManager.LoadScene(10);
+    }
+    public void GoSciFi_Bowling()
+    {
+        SceneManager.LoadScene(11);
+    }
+    public void GoYabaniOrman()
+    {
+        SceneManager.LoadScene(12);
+    }
+    
     public void MenuPressed(InputAction.CallbackContext context)
     {
         if (context.performed)
