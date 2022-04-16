@@ -6,6 +6,9 @@ TagManager:
   tags:
   - SoundHandler
   - PlayerTextOutput
+  - Email
+  - Password
+  - Username
   layers:
   - Default
   - TransparentFX

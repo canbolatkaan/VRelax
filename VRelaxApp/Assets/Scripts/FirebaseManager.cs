@@ -15,9 +15,9 @@ public class FirebaseManager : MonoBehaviour
 
     [Header("Login References")]
     [SerializeField]
-    private TMP_InputField loginEmail;
+    private TextMeshPro loginEmail;
     [SerializeField]
-    private TMP_InputField loginPassword;
+    private TextMeshPro loginPassword;
     [SerializeField]
     private TMP_Text loginOutputText;
     [Space(5f)]
