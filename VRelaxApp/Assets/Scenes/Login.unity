@@ -6597,6 +6597,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &795405279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1572161834460568, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
+  m_PrefabInstance: {fileID: 1587991620}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &800613096
 GameObject:
   m_ObjectHideFlags: 0
@@ -11298,6 +11303,7 @@ GameObject:
   - component: {fileID: 1350613569}
   - component: {fileID: 1350613568}
   - component: {fileID: 1350613572}
+  - component: {fileID: 1350613573}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -11758,6 +11764,20 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 0
+--- !u!114 &1350613573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350613566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c5fd1faae9ad46953d7272a2726f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normcoreObject: {fileID: 795405279}
+  isRight: 0
 --- !u!1 &1390203879
 GameObject:
   m_ObjectHideFlags: 0
@@ -13288,6 +13308,10 @@ PrefabInstance:
       propertyPath: _localPlayer.root
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
+      propertyPath: _localAvatarPrefab
+      value: 
+      objectReference: {fileID: 1435502846325602, guid: 04a0b10ba049f2941a9ec3150b543438, type: 3}
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localPlayer.leftHand
       value: 
@@ -15555,6 +15579,7 @@ GameObject:
   - component: {fileID: 2006242516}
   - component: {fileID: 2006242515}
   - component: {fileID: 2006242519}
+  - component: {fileID: 2006242520}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -16015,6 +16040,20 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 0
+--- !u!114 &2006242520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006242513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c5fd1faae9ad46953d7272a2726f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normcoreObject: {fileID: 795405279}
+  isRight: 1
 --- !u!1 &2014583205
 GameObject:
   m_ObjectHideFlags: 0
@@ -17358,7 +17397,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &3248631697366756389
@@ -17739,7 +17778,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3248631697540064462
@@ -18060,7 +18099,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &3248631697686328035
@@ -18377,7 +18416,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!224 &3248631697788636777
@@ -19620,7 +19659,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3248631698410127956
