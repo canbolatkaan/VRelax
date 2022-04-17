@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using System.Linq;
+using UnityEngine.UI;
+using System;
 
 public class BotController : MonoBehaviour
 {
@@ -10,13 +12,15 @@ public class BotController : MonoBehaviour
     private XRNode xrNode = XRNode.LeftHand;
     private List<InputDevice> devices = new List<InputDevice>();
     private InputDevice device;
-
+    [SerializeField] Text time;
+    
     public Animator anim;
     private Rigidbody rb;
     public LayerMask layerMask;
     public bool ground;
-    float myTime;
+    int myTime;
     public int[] movements;
+    public bool stop = false;
     int index = 0;
     int falseCounter = 0;
     void GetDevice()
@@ -31,11 +35,33 @@ public class BotController : MonoBehaviour
         
         
     }
-
+    public void changeStop2()
+    {
+        if(stop == true)
+        {
+            stop = false;
+        }
+    }
+    public void changeStop()
+    {
+        if (stop == false) { 
+            stop = true;
+            anim.SetBool("crossJump", false);
+            anim.SetBool("frontRise", false);
+            anim.SetBool("airSquat", false);
+            anim.SetBool("bicepsCurl", false);
+            anim.SetBool("jumpingJacks", false);
+        }
+        else
+            stop = false;
+    }
     // Update is called once per frame
     private void Update()
     {
-        myTime = CountDownTimerForBot.getCurrentTime();
+        String stringTime = time.text;
+        myTime = (int)float.Parse(stringTime);
+        Debug.Log(myTime);
+        if (!stop) { 
         if(myTime > 0 && myTime < 12)
         {
             anim.SetBool("crossJump", false);
@@ -84,6 +110,7 @@ public class BotController : MonoBehaviour
             anim.SetBool("airSquat", false);
             anim.SetBool("bicepsCurl", false);
             anim.SetBool("jumpingJacks", false);
+        }
         }
         /*
         if (!device.isValid)

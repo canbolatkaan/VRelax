@@ -36,4 +36,8 @@ public class CountDownTimerForBot : MonoBehaviour
     {
         timerActive = false;
     }
+    public void ResetTimer()
+    {
+        currentTime = 60;
+    }
 }
