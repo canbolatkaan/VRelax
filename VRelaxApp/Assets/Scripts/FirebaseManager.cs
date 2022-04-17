@@ -1,5 +1,6 @@
 using Firebase;
 using Firebase.Auth;
+using Firebase.Database;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -24,16 +25,17 @@ public class FirebaseManager : MonoBehaviour
 
     [Header("Register References")]
     [SerializeField]
-    private TMP_InputField registerUsername;
+    private TextMeshPro registerUsername;
     [SerializeField]
-    private TMP_InputField registerEmail;
+    private TextMeshPro registerEmail;
     [SerializeField]
-    private TMP_InputField registerPassword;
+    private TextMeshPro registerPassword;
     [SerializeField]
-    private TMP_InputField registerConfirmPassword;
+    private TextMeshPro registerConfirmPassword;
     [SerializeField]
     private TMP_Text registerOutputText;
 
+    private DatabaseReference reference;
 
     private void Awake()
     {
@@ -52,6 +54,7 @@ public class FirebaseManager : MonoBehaviour
 
     private void Start()
     {
+        reference = FirebaseDatabase.GetInstance("https://vrelaxapp-fabe6-default-rtdb.europe-west1.firebasedatabase.app/").RootReference;//DefaultInstance.RootReference;
         StartCoroutine(CheckAndFixDependancies());
     }
 
@@ -104,7 +107,6 @@ public class FirebaseManager : MonoBehaviour
         {
             if (user.IsEmailVerified)
             {
-                //TODO: giri� yap�lm��, kullan�c� direk lobiye? atanacak
                 GameManager.instance.ChangeScene(1);    
             }
             else
@@ -211,6 +213,9 @@ public class FirebaseManager : MonoBehaviour
         {
             var registerTask = auth.CreateUserWithEmailAndPasswordAsync(_email, _password);
             yield return new WaitUntil(predicate: () => registerTask.IsCompleted);
+            //instance.getReference;
+            //private DatabaseReference db;
+            
 
             if (registerTask.Exception != null)
             {
@@ -267,8 +272,9 @@ public class FirebaseManager : MonoBehaviour
                     else
                     {
                         Debug.Log($"Firebase user created successfully {user.DisplayName} ({user.UserId})");
+                        register_user(user.UserId, user.DisplayName);
                     //TODO: send verification e-mail
-                    }
+                }
             }
         }
     }
@@ -308,5 +314,32 @@ public class FirebaseManager : MonoBehaviour
                 Debug.Log("Email sent succesfully!");
             }
         }
+    }
+
+    //////// FIREBASE METHODS ///////
+    public class User
+    {
+        public string username;
+        public int type;
+        public int duration; // in MINUTES
+
+        public User()
+        {
+        }
+
+        public User(string username, int type)
+        {
+            
+            this.username = username;
+            this.type = type;
+            duration = 0;
+        }
+    }
+    private void register_user(string uid, string name) // just will be ussed in registering process
+    {
+        User user = new User(name, 0);
+        string json = JsonUtility.ToJson(user);
+            
+        reference.Child("Users").Child(uid).SetRawJsonValueAsync(json);
     }
 }

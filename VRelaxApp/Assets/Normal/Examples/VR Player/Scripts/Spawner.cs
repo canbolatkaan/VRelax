@@ -10,13 +10,17 @@ public class Spawner : MonoBehaviour
     private Vector3 position_client;
     private Vector3 position_doctor;
 
+    private Quaternion rotation_doctor;
+
+
     // Start is called before the first frame update
     void Start()
     {
         Debug.Log("Start");
         manager = GetComponent<RealtimeAvatarManager>();
         position_client = new Vector3(45.7f, 1, 37.66f);
-        position_doctor = new Vector3(0, 0, 0);
+        position_doctor = new Vector3(45.7f, 1, 40f);
+        rotation_doctor = new Quaternion(0, 180, 0, 0);
     }
 
     // Update is called once per frame
@@ -26,7 +30,8 @@ public class Spawner : MonoBehaviour
         {
             Debug.Log("ok");
             spawned = true;
-            manager.localAvatar.localPlayer.root.transform.position = position_client; 
+            manager.localAvatar.localPlayer.root.transform.position = position_doctor;
+            manager.localAvatar.localPlayer.root.transform.rotation = rotation_doctor;
         }
     }
 }

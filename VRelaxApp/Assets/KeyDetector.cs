@@ -8,45 +8,56 @@ public class KeyDetector : MonoBehaviour
     static bool loginFlag=false, registerFlag=false;
     [SerializeField] private GameObject canvas;
     GameObject login, register;
-    private TextMeshPro usernameTextOutput;
-    private TextMeshPro emailTextOutput;
-    private TextMeshPro hiddenPassword, passwordTextOutput;
-    bool caps_on = false;
+    GameObject emailArea, userNameArea, passwordArea, confirmPasswordArea;
+    private static TextMeshPro usernameTextOutput;
+    private static TextMeshPro emailTextOutput;
+    private static TextMeshPro hiddenPassword, passwordTextOutput;
+    private static TextMeshPro hiddenPasswordc, passwordTextOutputc;
+    static bool caps_on = false;
     static int entryField = 0;
     public enum Field_Type
     {
-        USERNAME, EMAIL, PASSWD, HIDDENPSWD
+        USERNAME, EMAIL, PASSWD, HIDDENPSWD, PASSWDC, HIDDENPSWDC
     }
 
     private void Awake()
     {
         login = canvas.transform.Find("Login UI").gameObject;
         register = canvas.transform.Find("Register UI").gameObject;
+        UpdateUI();
+    }
+    private void UpdateUI()
+    {
         if (login.activeSelf)
         {
             loginFlag = true;
             registerFlag = false;
-            GameObject emailArea = GetChildObject(canvas.transform, "Email");
+            emailArea = GetChildObject(login.transform, "Email");
             emailTextOutput = emailArea.GetComponentInChildren<TextMeshPro>();
-            GameObject passwordArea = GetChildObject(canvas.transform, "Password");
+
+            passwordArea = GetChildObject(login.transform, "Password");
             hiddenPassword = passwordArea.GetComponentsInChildren<TextMeshPro>()[0];
-            passwordTextOutput = passwordArea.GetComponentsInChildren<TextMeshPro>()[1];  
+            passwordTextOutput = passwordArea.GetComponentsInChildren<TextMeshPro>()[1];
 
         }
-    }
-    private void UpdateUI()
-    {
-        if (register.activeSelf)
+
+        else if (register.activeSelf)
         {
             loginFlag = false;
             registerFlag = true;
-            GameObject userNameArea = GetChildObject(canvas.transform, "Username");
+            userNameArea = GetChildObject(register.transform, "Username");
             usernameTextOutput = userNameArea.GetComponentInChildren<TextMeshPro>();
-            GameObject emailArea = GetChildObject(canvas.transform, "Email");
+
+            emailArea = GetChildObject(register.transform, "Email");
             emailTextOutput = emailArea.GetComponentInChildren<TextMeshPro>();
-            GameObject passwordArea = GetChildObject(canvas.transform, "Password");
+
+            passwordArea = GetChildObject(register.transform, "Password");
             hiddenPassword = passwordArea.GetComponentsInChildren<TextMeshPro>()[0];
             passwordTextOutput = passwordArea.GetComponentsInChildren<TextMeshPro>()[1];
+
+            confirmPasswordArea = GetChildObject(register.transform, "ConfirmPassword");
+            hiddenPasswordc = confirmPasswordArea.GetComponentsInChildren<TextMeshPro>()[0];
+            passwordTextOutputc = confirmPasswordArea.GetComponentsInChildren<TextMeshPro>()[1];
 
         }
     }
@@ -61,7 +72,12 @@ public class KeyDetector : MonoBehaviour
 
             if (keyFeedback.keyCanBeHitAgain)
             {
-                if (key.text == "Login")
+                if (key.text == "UP")
+                {
+                    entryField--;
+                   
+                }
+                else if (key.text == "Login")
                 {
                     entryField = 0;
                     FirebaseManager.instance.LoginButton();
@@ -69,10 +85,26 @@ public class KeyDetector : MonoBehaviour
 
                 else if (key.text == "Register")
                 {
+                    key.text = "SignUp";
                     entryField = 0;
                     AuthUIManager.instance.RegisterScreen();
                     UpdateUI();
 
+                }
+                else if (key.text == "BACK")
+                {
+                    if (registerFlag)
+                    {
+                        entryField = 0;
+                        AuthUIManager.instance.LoginScreen();
+                        UpdateUI();
+                    }
+
+                }
+                else if (key.text == "SignUp")
+                {
+                    entryField = 0;
+                    FirebaseManager.instance.RegisterButton();
                 }
                 else if (key.text == "ENTER")
                     entryField++;
@@ -80,6 +112,9 @@ public class KeyDetector : MonoBehaviour
                 {
                     //PASS
                 }
+                else if (key.text == "CAPS LK")
+                    caps_on = !caps_on;
+
                 else if (key.text == "DEL")
                 {
                     if (registerFlag)
@@ -102,6 +137,13 @@ public class KeyDetector : MonoBehaviour
                                     int len = passwordTextOutput.text.Length;
                                     passwordTextOutput.text = passwordTextOutput.text.Substring(0, len - 1);
                                     hiddenPassword.text = hiddenPassword.text.Substring(0, len - 1);
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    int len = passwordTextOutputc.text.Length;
+                                    passwordTextOutputc.text = passwordTextOutputc.text.Substring(0, len - 1);
+                                    hiddenPasswordc.text = hiddenPasswordc.text.Substring(0, len - 1);
                                     break;
                                 }
 
@@ -127,7 +169,7 @@ public class KeyDetector : MonoBehaviour
                         }
                     }
                 }
-                else
+                else // ALL THE OTHER CHARACTERS
                 {
                     if (registerFlag)
                     {
@@ -149,10 +191,16 @@ public class KeyDetector : MonoBehaviour
                                     enterFields("*", Field_Type.PASSWD);
                                     break;
                                 }
+                            case 3:
+                                {
+                                    enterFields(key.text, Field_Type.HIDDENPSWDC);
+                                    enterFields("*", Field_Type.PASSWDC);
+                                    break;
+                                }
 
                         }
                     }
-                        
+
                     else if (loginFlag)
                     {
                         switch (entryField)
@@ -182,16 +230,22 @@ public class KeyDetector : MonoBehaviour
         switch (type)
         {
             case Field_Type.USERNAME:
-                usernameTextOutput.text += input;
+                usernameTextOutput.text += caps_on ? input.ToUpper() : input.ToLower();
                 break;
             case Field_Type.EMAIL:
-                emailTextOutput.text += input;
+                emailTextOutput.text += caps_on ? input.ToUpper() : input.ToLower();
                 break;
             case Field_Type.PASSWD:
-                passwordTextOutput.text += input;
+                passwordTextOutput.text += caps_on ? input.ToUpper() : input.ToLower();
                 break;
             case Field_Type.HIDDENPSWD:
-                hiddenPassword.text += input;
+                hiddenPassword.text += caps_on ? input.ToUpper() : input.ToLower();
+                break;
+            case Field_Type.PASSWDC:
+                passwordTextOutputc.text += caps_on ? input.ToUpper() : input.ToLower();
+                break;
+            case Field_Type.HIDDENPSWDC:
+                hiddenPasswordc.text += caps_on ? input.ToUpper() : input.ToLower();
                 break;
         }
     }
@@ -201,7 +255,7 @@ public class KeyDetector : MonoBehaviour
         Transform child;
         for (int i = 0; i < parent.childCount; i++)
         {
-            if (result != null)
+            if (result != null && result.activeSelf)
             {
                 return result;
             }
