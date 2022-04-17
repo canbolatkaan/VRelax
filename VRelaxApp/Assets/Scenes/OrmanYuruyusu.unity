@@ -6815,10 +6815,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1034321369}
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
-      propertyPath: _localAvatarPrefab
-      value: 
-      objectReference: {fileID: 1435502846325602, guid: 04a0b10ba049f2941a9ec3150b543438, type: 3}
-    - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localPlayer.leftHand
       value: 
       objectReference: {fileID: 488680901}
