@@ -93094,6 +93094,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 496839180119311573, guid: a1dc8b092da34c54eb6f451fc9b50a1b, type: 3}
+      propertyPath: _roomToJoinOnStart
+      value: AnonimSohbetler
+      objectReference: {fileID: 0}
     - target: {fileID: 537030296827342798, guid: a1dc8b092da34c54eb6f451fc9b50a1b, type: 3}
       propertyPath: m_Name
       value: XR Rig
@@ -93108,7 +93112,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 537030296827342804, guid: a1dc8b092da34c54eb6f451fc9b50a1b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.49
+      value: 0.84
       objectReference: {fileID: 0}
     - target: {fileID: 537030296827342804, guid: a1dc8b092da34c54eb6f451fc9b50a1b, type: 3}
       propertyPath: m_LocalPosition.z
