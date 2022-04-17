@@ -11,7 +11,7 @@ public class FirebaseManager : MonoBehaviour
 
     [Header("Firebase")]
     public FirebaseAuth auth;
-    public FirebaseUser user;
+    public static FirebaseUser user;
     [Space(5f)]
 
     [Header("Login References")]
@@ -107,7 +107,7 @@ public class FirebaseManager : MonoBehaviour
         {
             if (user.IsEmailVerified)
             {
-                GameManager.instance.ChangeScene(1);    
+                GameManager.instance.ChangeScene(2);    
             }
             else
             {
@@ -195,7 +195,7 @@ public class FirebaseManager : MonoBehaviour
             if (user.IsEmailVerified)
             {
                 yield return new WaitForSeconds(1);
-                GameManager.instance.ChangeScene(1);
+                GameManager.instance.ChangeScene(2);
             }
 
             else
@@ -271,6 +271,7 @@ public class FirebaseManager : MonoBehaviour
                 }
                     else
                     {
+                        registerOutputText.text = "Verification e-mail sent!";
                         Debug.Log($"Firebase user created successfully {user.DisplayName} ({user.UserId})");
                         register_user(user.UserId, user.DisplayName);
                     //TODO: send verification e-mail

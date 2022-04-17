@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3240,6 +3240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 537030296827342800, guid: a1dc8b092da34c54eb6f451fc9b50a1b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 537030296827342804, guid: a1dc8b092da34c54eb6f451fc9b50a1b, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3250,7 +3254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 537030296827342804, guid: a1dc8b092da34c54eb6f451fc9b50a1b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.77
+      value: 22.951
       objectReference: {fileID: 0}
     - target: {fileID: 537030296827342804, guid: a1dc8b092da34c54eb6f451fc9b50a1b, type: 3}
       propertyPath: m_LocalPosition.z
