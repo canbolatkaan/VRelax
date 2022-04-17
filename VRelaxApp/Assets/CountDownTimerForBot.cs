@@ -18,9 +18,9 @@ public class CountDownTimerForBot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timerActive == true)
+        if (timerActive == true)
         {
-            currentTime = currentTime -Time.deltaTime;
+            currentTime = currentTime - Time.deltaTime;
         }
         currentTimeText.text = currentTime.ToString();
     }
