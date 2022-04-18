@@ -73,10 +73,11 @@ public class KeyDetector : MonoBehaviour
             if (keyFeedback.keyCanBeHitAgain)
             {
                 if (key.text == "UP")
-                {
                     entryField--;
-                   
-                }
+
+                else if (key.text == "ENTER")
+                    entryField++;
+
                 else if (key.text == "Login")
                 {
                     entryField = 0;
@@ -106,8 +107,6 @@ public class KeyDetector : MonoBehaviour
                     entryField = 0;
                     FirebaseManager.instance.RegisterButton();
                 }
-                else if (key.text == "ENTER")
-                    entryField++;
                 else if (key.text == "SPACE")
                 {
                     //PASS

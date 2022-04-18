@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">908008408694</string>
+  <string name="google_storage_bucket" translatable="false">vrelaxapp-fabe6.appspot.com</string>
+  <string name="project_id" translatable="false">vrelaxapp-fabe6</string>
+  <string name="google_api_key" translatable="false">AIzaSyDSFLW0z9QEe84vVH8lwa-dDdUmVfT89wY</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDSFLW0z9QEe84vVH8lwa-dDdUmVfT89wY</string>
+  <string name="google_app_id" translatable="false">1:908008408694:android:e5956f8d04c0d51d034157</string>
+  <string name="default_web_client_id" translatable="false">908008408694-su03g3vhv2826snl98gtm0sl78m08hs7.apps.googleusercontent.com</string>
+</resources>

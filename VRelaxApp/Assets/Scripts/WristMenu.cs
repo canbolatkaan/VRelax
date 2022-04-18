@@ -80,11 +80,11 @@ public class WristMenu : MonoBehaviour
     }
     public void GoOrmanYuruyusu()
     {
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(11);
     }
     public void GoSciFi_Bowling()
     {
-        SceneManager.LoadScene(11);
+        SceneManager.LoadScene(10);
     }
     public void GoYabaniOrman()
     {
@@ -97,6 +97,10 @@ public class WristMenu : MonoBehaviour
     public void GoOyunAlanı()
     {
         SceneManager.LoadScene(15);
+    }
+    public void GoAppointment()
+    {
+        SceneManager.LoadScene(16);
     }
 
     public void MenuPressed(InputAction.CallbackContext context)

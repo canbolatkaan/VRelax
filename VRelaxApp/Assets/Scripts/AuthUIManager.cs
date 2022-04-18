@@ -30,7 +30,7 @@ public class AuthUIManager : MonoBehaviour
         }
     }
 
-    private void ClearUI()
+    public void ClearUI()
     {
         loginUI.SetActive(false);
         registerUI.SetActive(false);

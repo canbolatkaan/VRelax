@@ -12,10 +12,6 @@ using System;
 
 public class Spawner : MonoBehaviour
 {
-    [Header("Firebase")]
-    public FirebaseAuth auth;
-    public static FirebaseUser user;
-    [Space(5f)]
 
     private RealtimeAvatarManager manager;
     private bool spawned = false;
@@ -38,30 +34,7 @@ public class Spawner : MonoBehaviour
         position_doctor = new Vector3(45.7f, 1, 40f);
         rotation_doctor = new Quaternion(0, 180, 0, 0);
 
-        auth = FirebaseAuth.DefaultInstance;
-        
-
-        user = auth.CurrentUser;
-        
-
-
-        DatabaseReference reference = FirebaseDatabase.GetInstance("https://vrelaxapp-fabe6-default-rtdb.europe-west1.firebasedatabase.app/").RootReference;
-        reference
-      .GetValueAsync().ContinueWithOnMainThread(task => {
-          if (task.IsFaulted)
-          {
-              // Handle the error...
-              
-          }
-          else if (task.IsCompleted)
-          {
-              DataSnapshot snapshot = task.Result;
-
-              JObject rss = JObject.Parse(snapshot.GetRawJsonValue());
-              type = Int32.Parse(rss.SelectToken("Users." + user.UserId + ".type").ToString());
-
-          }
-      });
+       type = FirebaseManager.instance.getUserType();
     }
 
 
@@ -70,7 +43,6 @@ void Update()
     {
         if (!spawned && manager.localAvatar != null)
         {
-            Debug.Log("ok");
             spawned = true;
             //if person is doctor
             if(type == 1) {
